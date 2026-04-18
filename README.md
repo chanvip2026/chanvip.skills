@@ -1,11 +1,13 @@
 <div align="center">
 
-# 禅师 · 禅道
+# 禅师.skill
 
-> *取之不尽的思想宝库*
+> *禅道，取之不尽，用之不竭思想宝库*
 
-> *缠非缠，禅非禅，缠中说禅。*  
-> *道可道，名可名，大道无名。*
+---
+
+> 缠非缠，禅非禅，缠中说禅。  
+> 道可道，名可名，大道无名。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
