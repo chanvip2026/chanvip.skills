@@ -1,8 +1,11 @@
 <div align="center">
 
-# 禅师.skill
+# 禅师 · 禅道
 
-> *「缠非缠，禅非禅。走势终完美，大道无名。」*
+> *取之不尽的思想宝库*
+
+> *缠非缠，禅非禅，缠中说禅。*  
+> *道可道，名可名，大道无名。*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
@@ -10,7 +13,7 @@
 
 <br>
 
-**禅师的思维操作系统。不是缠论教程，是可运行的认知框架。**
+**禅师的思想宝库。不是缠论教程，是可运行的认知框架。**
 
 <br>
 
@@ -180,7 +183,7 @@ npx skills add chanvip2026/chanvip.skills
 
 | 产品 | 说明 | 链接 |
 |------|------|------|
-| **chanvip.skills** | 禅师思维操作系统（你在这里） | [GitHub](https://github.com/chanvip2026/chanvip.skills) |
+| **chanvip.skills** | 禅师思想宝库（你在这里） | [GitHub](https://github.com/chanvip2026/chanvip.skills) |
 | **kbarok** | K线会唱歌——缠论K线音乐生成器 | [GitHub](https://github.com/chanvip2026/kbarok) |
 | **kbarok.com** | 在线体验 | [kbarsing.com](https://kbarsing.com) |
 | **terms** | 缠论术语skill（笔/线段/中枢/背驰） | [GitHub](https://github.com/chanvip2026/terms) |
