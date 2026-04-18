@@ -1,194 +1,127 @@
 # chanvip.skills
-> Chan Master Full-Domain AI Skill | 缠中说禅 · 全域AI技能包
+
+> **让禅师在AI时代复活。**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/Python-3.8+-green.svg)](https://www.python.org/)
-
-**chanvip.skills** is a lightweight, open-source AI Skill that reproduces the core viewpoints, language style, and thinking logic of 「Chan Master」(缠中说禅). It covers **stock technical analysis, music appreciation, economic interpretation, poetry creation, and philosophical speculation** — five fields in one unified system.
-
-Based on **RAG architecture** with **LangChain + FAISS**, it delivers accurate Q&A with authentic "Chan style" responses — no AI hallucinations, no random fabrications.
+[![禅者](https://img.shields.io/badge/-禅者-blue?style=flat-square&logo=book)](https://github.com/chanvip2026)
+[![缠论](https://img.shields.io/badge/-缠论-red?style=flat-square&logo=trend)](https://github.com/chanvip2026)
 
 ---
 
-## 🌟 Core Features
+**我不是缠论教程。缠论教程满大街都是。**
 
-- ✅ **Five-Domain Coverage**: Stock · Music · Economy · Poetry · Philosophy
-- ✅ **RAG Architecture**: Vector retrieval from curated knowledge base — accurate, not fabricated
-- ✅ **Local Deployment**: No server required, runs on Windows/Mac/Linux
-- ✅ **Zero-Code Interface**: CLI (efficient) + Web UI (visual) — both beginner-friendly
-- ✅ **Multi-Model Compatible**: 通义千问 · 智谱AI · ChatGLM · OpenAI · 通通支持
-- ✅ **Lightweight**: ~50MB RAM, no GPU required
+**我是禅师的思维操作系统——走势必完美，中枢为核心，三类买卖点，机械化操作，心法为根本。**
+
+**我是诗人、是数学家、是操盘手、是哲学家。装上我，你的AI就能像禅师一样看走势、聊哲学、作诗词。**
 
 ---
 
-## 🚀 Quick Start
+## 效果示例
 
-### Prerequisites
-- Python 3.8+ (recommended 3.10)
-- Any LLM API Key (通义千问 recommended for Chinese — free tier available)
+### 走势分析
 
-### 1. Clone & Install
+> **你**：缠师，现在怎么看大盘？
+
+> **禅师**：大盘？我从来不看大盘。我说过了，「市场从来都是明白人挣糊涂人的钱」。你要先告诉我，什么级别？日线？30分？不讲级别谈大盘，都是废话。
+>
+> 走势必完美，这是根本。在这个基础上，看中枢位置，看背驰没有。没有背驰，就等。走势终完美，但时间不知道。
+
+### 心性修炼
+
+> **你**：禅师，为什么我总是一买就跌？
+
+> **禅师**：散户绝对不要抄底。我说过了，你听过吗？「股票从来不是股票，而是你的贪嗔痴疑慢。」你一买就跌，不是股票的问题，是你的问题。
+>
+> 买点买，卖点卖。你做不到，是你心动了。市场不动，是你心动。
+>
+> 心不动，则市场不动。心动，则市场乱动。
+
+### 诗词创作
+
+> **你**：禅师，《临江仙》那句「无情皆竖子，有泪亦英雄」怎么理解？
+
+> **禅师**：这句开篇词，说尽了我这一生的傲慢与孤独。无情皆竖子——没有感情的人是废物。有泪亦英雄——只有血性的人才是英雄。
+>
+> 缠非缠，禅非禅。我用禅说股票，用股票说禅。红尘万丈，不过是走势的投影罢了。
+
+---
+
+## 核心心智模型
+
+| 模型 | 一句话 | 核心问题 |
+|------|--------|---------|
+| **走势必完美** | 任何级别的任何走势终要完成 | 判断走势是否完整 |
+| **中枢为核心** | 中枢是市场唯一客观存在 | 找到走势的骨架 |
+| **三类买卖点** | 市场只有三类安全边际 | 精确找买点卖点 |
+| **机械化操作** | 会看不会干，废人一个 | 战胜人性弱点 |
+| **心法为根本** | 股票是你的贪嗔痴疑慢 | 修炼操作心态 |
+
+---
+
+## 安装方式
+
+### 一键安装（OpenClaw / Claude Code）
 
 ```bash
-git clone https://github.com/chanvip/chanvip.skills.git
+npx skills add chanvip/chanvip.skills
+```
+
+安装后直接说「禅师」或「缠师」即可激活。
+
+### 手动安装
+
+```bash
+git clone https://github.com/chanvip2026/chanvip.skills.git
 cd chanvip.skills
-
-# Create virtual environment
-python -m venv venv
-# Windows
-venv\Scripts\activate
-# macOS / Linux
-source venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-### 2. Configure
-
-```bash
-# Copy and edit environment file
-copy .env.example .env
-# Then fill in your LLM API key in .env
-```
-
-**Example `.env` for 通义千问 (recommended, free):**
-```env
-TONGYI_API_KEY=sk-xxxxxxxxxxxxxxxx
-TONGYI_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
-DEFAULT_MODEL=qwen-plus
-```
-
-### 3. Initialize Knowledge Base
-
-```bash
-python setup_knowledge.py
-# → "Knowledge base initialized! X documents indexed."
-```
-
-### 4. Start
-
-```bash
-# CLI mode (recommended for first-time use)
-python main.py --mode cli
-
-# Web mode (visual chat, browser UI)
-python main.py --mode web
-# → Open http://localhost:8000 in your browser
+# 复制SKILL.md到你的skills目录即可
 ```
 
 ---
 
-## 💬 Usage Examples
+## 调研来源
 
-### CLI Mode
+- **108篇**《教你炒股票》博客原文
+- **1134篇**缠中说禅新浪博客全领域文章
+- **经典语录**、诗词作品、生平时间线
+- **批评与争议**（如实呈现局限性）
 
-```
-==================================================
-chanvip.skills — Chan Master AI
-==================================================
-Tip: Ask in any style — stock, poetry, philosophy, economy, or life.
-Enter 'exit' to quit.
-
-You: 禅师，什么是走势必完美？
-Chan Master Style AI: 走势必完美——这是市场的根本规律。
-任何级别、任何走势，终将完成。
-分型、笔、线段、中枢，构成市场全部结构。
-三类买卖点，是唯一安全的操作依据。
-心不动，市场不动。
-```
-
-### Query Styles
-
-**Stock (股票):**
-> 缠论的核心是什么？中枢如何判断？
-
-**Poetry (诗歌):**
-> 禅师的诗有什么特点？请分析一首。
-
-**Philosophy (哲学):**
-> 如何理解"心不动，则市场不动"？
-
-**Economy (经济):**
-> 禅师怎么看当前宏观经济与A股的关系？
-
-**Culture (文化):**
-> 论语中"君子和而不同"如何理解？
+> 调研时间：2026-04-18 | 遵循女娲.skill蒸馏方法论
 
 ---
 
-## 📁 Knowledge Base Structure
+## chanvip矩阵
 
-```
-knowledge/
-├── cognitive/          # 认知 · 伟人思想 · 红色文化 · 实践哲学
-│   ├── 01_伟人思想.txt
-│   ├── 02_红色文化.txt
-│   ├── 03_家国理念.txt
-│   └── 04_实践哲学.txt
-├── culture/            # 文化 · 论语正解
-│   └── lunyu_正解.txt
-├── self_cultivation/   # 修养 · 中医养生 · 诗歌修养
-│   ├── 01_中医养生.txt
-│   └── 02_诗歌修养.txt
-└── stock/              # 股票 · 缠论核心 · 实操技巧 · 投资心性
-    ├── 01_缠论核心.txt
-    ├── 02_实操技巧.txt
-    └── 03_投资心性.txt
-```
-
-> **Add your own materials**: Drop `.txt` files into any folder, then re-run `python setup_knowledge.py` to update the index.
+| 仓库 | 说明 |
+|------|------|
+| **[chanvip.skills](https://github.com/chanvip2026/chanvip.skills)** | ⭐ 禅师思维操作系统（你在这里） |
+| **[chanvip/chanvip.skills](https://github.com/chanvip/chanvip.skills)** | 备用仓库 |
+| **[kbarok](https://github.com/chanvip2026/kbarok)** | K线会唱歌——缠论K线音乐生成器 |
+| **[terms](https://github.com/chanvip2026/terms)** | 缠论术语skill（笔/线段/中枢/背驰） |
 
 ---
 
-## 🔧 Customization
+## 关于禅师
 
-### Switch LLM Provider
+缠中说禅，真名李彪（或李彪），1969-2008。北大数学系毕业，A股顶级操盘手。
 
-Edit `.env`:
-```env
-# 通义千问 (recommended)
-DEFAULT_MODEL=tongyi
+- **操盘亿安科技**，打造中国首支百元股
+- **精准预测2005年底部和2007年6124大顶**
+- **创立缠论**，108篇《教你炒股票》影响千万散户
+- **诗词大家**，《临江仙》等作品流传至今
+- **2008年10月31日**，因鼻咽癌去世，年仅39岁
 
-# 智谱AI
-ZHIPUAI_API_KEY=your_key
-ZHIPUAI_BASE_URL=https://open.bigmodel.cn/api/paas/v4/chat/completions
-DEFAULT_MODEL=zhipuai
-
-# OpenAI
-OPENAI_API_KEY=sk-xxx
-DEFAULT_MODEL=openai
-```
-
-### Adjust Retrieval Relevance
-
-Edit `rag/chat.py` — change `k` parameter to control how many relevant chunks are retrieved per query.
+> 「得其道者三人足矣。」——缠中说禅，2008
 
 ---
 
-## ⚠️ Disclaimer
+## ⚠️ 免责声明
 
-1. **Learning & research only** — not for commercial use.
-2. **Not affiliated with any individual** — this is a knowledge-base AI tool.
-3. **Not investment advice** — this project does not provide stock recommendations.
-4. All materials in the knowledge base are from public domain sources.
-5. Users are solely responsible for how they use this project.
-
----
-
-## 📄 License
-
-MIT License — free to use, modify, distribute.
+1. 本Skill基于禅师公开博客和语录的调研分析，非禅师本人观点
+2. 禅师2008年离世，缠论形成于2005-2008年A股牛市周期，理论有效性受时代局限
+3. 本Skill仅供思维参考，不构成任何投资建议
+4. 缠论存在争议，学术界和实务界对其预测力褒贬不一
+5. 市场有风险，投资需谨慎
 
 ---
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Add materials to the `knowledge/` folder
-3. Re-run `python setup_knowledge.py`
-4. Submit a Pull Request
-
----
-
-*"诗以言志，歌以咏言。股市如道场，交易即修行。"*
+**「走势终完美。但你能不能等到那一天？」** — 缠中说禅
